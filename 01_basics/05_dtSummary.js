@@ -75,3 +75,37 @@ const myFunct = function(){
 
 console.log(typeof myFunct);
 
+console.log("2"===2); //false
+
+
+//Stack and Heap
+let youtubeName = "Ajay Wankhade";
+console.log(youtubeName);
+
+let anotherName = youtubeName;
+
+console.log(anotherName);
+anotherName = "nacho";
+console.log(anotherName);
+
+
+let userOne ={
+    email : "user@mail.com",
+    upi : "user@apl"
+}
+
+console.log(userOne);
+
+let userTwo = userOne;
+userTwo.email= "ajay@mail.com"
+
+console.log(userTwo);
+console.log(userOne);
+
+
+
+
+
+
+
+

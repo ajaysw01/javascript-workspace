@@ -29,7 +29,9 @@
 
 // strict check : === checks for values as well as datatypes
 
-console.log("2"===2); //false
+
+
+
 
 
 
