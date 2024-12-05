@@ -1,5 +1,5 @@
-/*
 
+/*
 Javascript is a dynamically typed language. 
 Primitive DT : 
 1. string
@@ -15,8 +15,31 @@ Reference(Non Primitves) :
 2. Object
 3.Function
 
-*/
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
 
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+
+Primitive Types:
+1. Stored in stack.
+2. Passed or assigned by value (call by value).
+3. Changes to copies don't affect the original.
+
+Reference Types:
+1. Stored in heap; accessed via references (stored in stack).
+2. Changing the value through another reference affects the original.
+
+*/
 const score = 100;
 const scoreValue = 100.332;
 
@@ -52,24 +75,3 @@ const myFunct = function(){
 
 console.log(typeof myFunct);
 
-
-/* 
-Return type of variables in JavaScript
-1) Primitive Datatypes
-       Number => number
-       String  => string
-       Boolean  => boolean
-       null  => object
-       undefined  =>  undefined
-       Symbol  =>  symbol
-       BigInt  =>  bigint
-
-2) Non-primitive Datatypes
-       Arrays  =>  object
-       Function  =>  function
-       Object  =>  object
-
-
-
-
-*/
